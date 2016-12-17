@@ -1,0 +1,13 @@
+{
+  "name": "blogserver",
+  "version": "1.0.0",
+  "description": "API for blog server",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Martin",
+  "license": "MIT"
+}
