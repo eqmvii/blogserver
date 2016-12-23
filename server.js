@@ -7,7 +7,7 @@ var MongoClient = require('mongodb').MongoClient
 var bodyParser = require('body-parser');
 
 // Connection URL
-var url = 'mongodb://localhost:27017/myproject';
+var url = process.env.APP_URL || 'mongodb://localhost:27017/myproject';
 
 var app = express();
 
